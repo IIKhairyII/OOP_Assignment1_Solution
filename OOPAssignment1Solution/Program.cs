@@ -13,7 +13,6 @@ namespace OOPAssignment1Solution
                     new(2, "Mona", Security.Secretary, 10000, Gender.Female, new(10, 9 ,2021)),
                     new(3, "Khaled", Security.SecurityOfficer, 30000, Gender.Male, new(10, 1 ,2024)),
                 };
-                Console.WriteLine(empArr[2].SecurityLevel);
             }
             catch (Exception ex)
             {
